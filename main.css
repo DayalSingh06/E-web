@@ -1,0 +1,202 @@
+  /* This block is our Navbar */
+  .nav-item {
+      padding-left: 60px;
+  }
+
+  .navbar {
+      background-color: rgb(225, 228, 242);
+      padding: 0 40px 0 40px;
+  }
+
+  .nav-link {
+      color: rgb(8, 130, 122) !important;
+  }
+
+  .navbar-shadow {
+      box-shadow: 2px solid 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #search-box {
+      border-radius: 10px;
+  }
+
+  #search-btn {
+      border-radius: 10px;
+  }
+
+
+
+
+  /* This block is our Slids */
+  #slids {
+      height: 100vh;
+      overflow: hidden;
+  }
+
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item img {
+      height: 100vh;
+  }
+
+  .carousel-item img {
+      object-fit: cover;
+  }
+
+  /* Position text on top-left of the first slide */
+  #slid_1 {
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      color: white;
+      z-index: 2;
+      max-width: 40%;
+  }
+
+  #slid_1 h1 {
+      color: #088178;
+  }
+
+  #slid_1 h2,
+  h4,
+  p {
+      color: black;
+  }
+
+  #slid_1 button {
+      background-image: url("img/button.png");
+      background-color: transparent;
+      color: #088178;
+      border: 0;
+      padding: 14px 80px 14px 65px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 15px;
+  }
+
+  .carousel-item {
+      height: 100vh;
+  }
+
+
+
+  /* This is cart block */
+
+
+  .card {
+      width: 250px;
+      margin-top: 50px;
+      border-radius: 25px;
+      margin: 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+      transform: translateY(-10);
+
+  }
+
+  .card img {
+      border-radius: 25px;
+  }
+
+  .custom-card {
+      cursor: pointer;
+  }
+
+  .custom-card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-text-visible {
+      background-color: rgb(85, 207, 241);
+      width: 200px;
+      height: 150px;
+      border: transparent;
+      overflow: visible;
+  }
+
+  .card-text-hidden {
+      background-color: rgb(129, 201, 249);
+      width: 200px;
+      height: 150px;
+      border: transparent;
+      overflow: hidden;
+  }
+
+
+
+  /* This is our image block */
+
+  .round-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+      margin: auto;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      opacity: 0.6;
+  }
+
+  .round-img:hover {
+      opacity: 1;
+      transform: scale(1.1);
+  }
+
+  .round-img:hover {
+      transform: scale(1.05);
+  }
+
+  .round-imgs {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      transition: all 0.3s ease;
+      opacity: 0.6;
+      cursor: pointer;
+  }
+
+  .round-imgs:hover {
+      opacity: 1;
+      transform: scale(1.1);
+  }
+
+  .round-imgs:hover {
+      transform: scale(1.05);
+  }
+
+
+
+  /* This is table block */
+
+  .table thead {
+      background-color: #0d6efd;
+      color: white;
+      cursor: pointer;
+  }
+
+  .table tbody tr:nth-child(odd) {
+      background-color: #e9f2ff;
+  }
+
+  .table tbody tr:nth-child(even) {
+      background-color: #cfe2ff;
+  }
+
+  .table tbody tr:hover {
+      background-color: #b6d4fe;
+  }
+
+  #accordion {
+      margin-top: 30px;
+  }
+
+
+  /* This is footer */
+  #footer {
+      margin-top: 30px;
+  }
